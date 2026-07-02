@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,8 +30,41 @@
 <p>
     <label for="data-nasc">Data De Nascimento:</label><br>
     <input type="date"id="data-nasc"name="data-nasc">
-
 </p>
+<p>
+    <label>Quais vestimentas tradicionais você conhece?(marque quantos quiser:)</label><br>
+    <input type="checkbox"id="ves1"name="vestimenta"value="pilcha gaúcha">
+    <label for="ves1">Pilcha Gaúcha</label><br>
+    <input type="checkbox"id="ves2"name="vestimenta"value="traje de carimbó">
+    <label for="ves2">Traje de Carimbó</label><br>
+    <input type="checkbox"id="ves3"name="vestimenta"value="traje de baiana">
+    <label for="ves3">Traje de Baiana</label><br>
+    <input type="checkbox"id="ves4"name="vestimenta"value="traje de cangaceiro">
+    <label for="ves4">Traje de Cangaceiro</label><br>
+    <input type="checkbox"id="ves5"name="vestimenta"value="estilo boiadeiro">
+    <label for="ves5">Estilo Boiadeiro</label><br>
+    </p>
+    <p>
+        <label for="notaEstilo">Quais outras vestimentas tradicionais você conhece?</label><br>
+        <input list="vestimentas" name="notaEstilo" id="notaEstilo" placeholder="Digite aqui ou selecione uma vestimenta">
+        <datalist id="vestimentas">
+            <option value="roupa indígena">
+            <option value="traje de carnaval">
+            <option value="traje de frevo">
+            <option value="traje de maracatu">
+            <option value="traje de capoeira">
+        </p>
+<p>
+    <label for="instituição">Onde você aprendeu sobre essas vestimentas?</label><br>
+    <select id="instituição" name="instituição"><select>
+        <option value="escola">Escola</option>
+        <option value="familia">Família</option>
+        <option value="internet">Internet</option>
+        <option value="amigos">Amigos</option>
+        <option value="outros">Outros</option>
+</p>
+
+
     </div>
 </body>
 </html>
